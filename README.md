@@ -1,6 +1,6 @@
 # davidjiang-gorsline.github.io
 
-Minimal academic profile for David Jiang-Gorsline's GitHub Pages site. The page emphasises searchable, text-forward content for AI leadership roles and includes structured data for recruiters.
+Personal site for David Jiang-Gorsline's GitHub Pages profile.
 
 To preview locally, serve the root directory with any static file server:
 
