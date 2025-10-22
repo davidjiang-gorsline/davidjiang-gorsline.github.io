@@ -3,151 +3,458 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>David Jiang-Gorsline | Applied AI & Technical Lead</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta
+      name="description"
+      content="Portfolio of David Jiang-Gorsline, senior applied scientist and product-first ML engineer specializing in LLM/RAG systems, quantitative forecasting, and production-grade analytics."
+    />
+    <title>David Jiang-Gorsline | Applied Scientist & Product-First ML Engineer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="canonical" href="https://davidjianggorsline.github.io/" />
+    <meta property="og:title" content="David Jiang-Gorsline | Applied Scientist" />
+    <meta
+      property="og:description"
+      content="I turn signals into forecasts and algorithms into alpha. Explore my experience across LLM/RAG systems, forecasting, and quantitative research."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://davidjianggorsline.github.io/" />
+    <meta property="og:image" content="https://davidjianggorsline.github.io/assets/images/david-portrait.svg" />
   </head>
   <body>
-    <header class="hero">
-      <div class="hero__content">
-        <p class="eyebrow">David Jiang-Gorsline</p>
-        <h1>Engineering AI systems that deliver measurable business impact.</h1>
-        <p class="lede">
-          Technical lead focused on foundation-model adaptation, multimodal forecasting, and
-          agentic retrieval systems for global capital markets. I build reproducible, production-ready
-          AI that scales from research to mission-critical analytics.
-        </p>
-        <div class="hero__cta">
-          <a class="btn" href="mailto:David.JiangGorsline@gmail.com">Email</a>
-          <a class="btn btn--outline" href="https://www.linkedin.com/in/davidjianggorsline" target="_blank" rel="noopener">LinkedIn</a>
-        </div>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header" role="banner">
+      <div class="site-header__inner">
+        <div class="site-title">David Jiang-Gorsline</div>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="site-navigation">Menu</button>
+        <nav class="site-nav" id="site-navigation" aria-label="Primary navigation">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#passions">Passions</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
 
-    <main>
-      <section class="section" id="leadership">
-        <h2>Technical Leadership Snapshot</h2>
-        <div class="cards">
-          <article class="card">
-            <h3>RBC Capital Markets</h3>
-            <p class="meta">AD/VP – Tech Lead, Data Science · 2025–Present</p>
-            <ul>
-              <li>Unified ingestion-to-model alternative-data platform on a 500-core Databricks cluster, cutting training runtime by ~70% and enabling firm-wide reuse.</li>
-              <li>Agentic RAG system (<strong>QuickTake</strong>) that turns 2.5k earnings press releases per quarter into analyst-ready insights with &lt;1% hallucination rate.</li>
-              <li>Owned seven Kubernetes-hosted analytics apps with 99.9% uptime, sub-30 minute MTTR, and automated drift/data-quality monitoring.</li>
-            </ul>
-          </article>
-          <article class="card">
-            <h3>Ernst &amp; Young</h3>
-            <p class="meta">Senior AI Consultant · 2021–2023</p>
-            <ul>
-              <li>Document intelligence pipeline delivering &gt;95% extraction accuracy and reducing audit cycles from 16 weeks to 5 days (~$1.4M annual savings).</li>
-              <li>Deployed production-grade Vertex AI platform (Feature Store + Kubeflow + CI/CD) in 9 days with full client handover and governance.</li>
-              <li>Designed climate-risk stress engine aligning NGFS/IAM scenarios to ECB guidelines for low-latency risk analytics.</li>
-            </ul>
-          </article>
-          <article class="card">
-            <h3>USC Information Sciences Institute</h3>
-            <p class="meta">LLM Research Programmer · 2020</p>
-            <ul>
-              <li>Reduced RoBERTa fine-tuning compute by ~80% through data distillation and reproducible MLOps tooling adopted across the lab.</li>
-              <li>Developed deterministic fine-tuning frameworks with ablation harnesses and evaluation gates for DARPA Machine Common Sense.</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section class="section section--accent" id="focus">
-        <div class="section__inner">
-          <h2>How I deliver resilient AI platforms</h2>
-          <div class="grid">
-            <div>
-              <h3>LLM &amp; RAG Systems</h3>
-              <p>
-                Architect retrieval-bounded agents with LoRA-tuned instruction models, dense + sparse retrieval, rerankers,
-                and LLM-as-judge evaluation. QuickTake and news-listening agents accelerate analyst workflows by &gt;80% while maintaining safety guardrails.
-              </p>
+    <main id="main" role="main">
+      <section class="hero" id="home">
+        <div class="hero__inner">
+          <div>
+            <span class="hero__eyebrow">Senior Applied Scientist · Product-First ML Engineer</span>
+            <h1 class="hero__title">I turn signals into forecasts and algorithms into alpha.</h1>
+            <p class="hero__lede">
+              I’m David Jiang-Gorsline, a Toronto-based builder of LLM/RAG systems, multivariate forecasting platforms,
+              and high-throughput analytics with <strong>eight years</strong> of experience orchestrating AI that earns trust.
+            </p>
+            <p class="hero__metrics">
+              Runtime reduced by <strong>70%</strong>, analyst effort cut by <strong>&gt;90%</strong>, forecasts with <strong>R² ≈ 0.99</strong> and <strong>MAPE &lt; 1%</strong>,
+              seven Kubernetes analytics apps at <strong>99%</strong> uptime, and research readership boosted <strong>4×</strong>.
+            </p>
+            <div class="hero__actions">
+              <a class="btn" href="#contact">Let’s collaborate</a>
+              <a class="btn btn--ghost" href="https://www.linkedin.com/in/davidjianggorsline" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+                Connect on LinkedIn
+              </a>
             </div>
-            <div>
-              <h3>Time-Series Intelligence</h3>
-              <p>
-                Build distributed, leakage-aware forecasting frameworks that mine 650k+ alternative data features on 16×64-core clusters.
-                Achieved R² ≈ 0.99 and &lt;1% MAPE on macro and ticker-specific models that feed directly into trading desks.
-              </p>
+            <div class="quick-links" aria-label="Quick navigation">
+              <a href="#experience">Experience<span aria-hidden="true">→</span></a>
+              <a href="#projects">Projects<span aria-hidden="true">→</span></a>
+              <a href="#skills">Skills<span aria-hidden="true">→</span></a>
+              <a href="#contact">Contact<span aria-hidden="true">→</span></a>
             </div>
-            <div>
-              <h3>Production-grade MLOps</h3>
-              <p>
-                Ship reproducible ML with MLflow/W&amp;B tracking, automated evaluation gates, Kubernetes deployments, and
-                CI/CD pipelines that enforce observability, drift detection, and disaster recovery.
-              </p>
-            </div>
-            <div>
-              <h3>Leadership &amp; Collaboration</h3>
-              <p>
-                Mentor cross-functional research pods, lead six-person data science teams, and evangelize best practices through
-                invited talks (e.g., RBC T&amp;O Catalyst) and documentation that scales institutional knowledge.
-              </p>
-            </div>
+          </div>
+          <div class="hero__portrait">
+            <img src="assets/images/david-portrait.svg" alt="David Jiang-Gorsline portrait illustration" loading="lazy" />
           </div>
         </div>
       </section>
 
-      <section class="section" id="highlight">
-        <h2>Recent Highlights</h2>
-        <ul class="timeline">
-          <li>
-            <span class="timeline__date">2025</span>
-            <p>Invited expert talk: <em>Precision at Scale – RBC Elements Approach to Time-Series Forecasting</em>.</p>
-          </li>
-          <li>
-            <span class="timeline__date">2024</span>
-            <p>Contributed to Extel #3 Macro ranking through adoption of alternative-data research platforms.</p>
-          </li>
-          <li>
-            <span class="timeline__date">2023</span>
-            <p>Launched QuickTake retrieval agent, reducing analyst effort by &gt;90% across 2.5k quarterly filings.</p>
-          </li>
-          <li>
-            <span class="timeline__date">2022</span>
-            <p>Delivered Vertex AI forecasting platform with Kubeflow CI/CD in under two weeks for a top asset manager.</p>
-          </li>
-        </ul>
+      <section class="section" id="about">
+        <div class="section__inner">
+          <div class="section__heading">
+            <h2>About</h2>
+            <p>Math roots, ML craft, and a penchant for playful rigor.</p>
+          </div>
+          <div class="prose">
+            <p>
+              I’m David Jiang-Gorsline, a Toronto-based senior applied scientist and product-first ML engineer. My journey began with
+              combinatorics and mathematical finance at the University of Waterloo, where I graduated as class valedictorian.
+              After earning my M.Sc. in Analytics (LLM focus) from USC with a 3.96 GPA, I joined USC’s Information Sciences Institute
+              and shaved <strong>80%</strong> off RoBERTa fine-tuning costs by crafting deterministic libraries that made our research reproducible.
+            </p>
+            <p>
+              Today, I architect multivariate forecasting pipelines and agentic retrieval-augmented-generation systems for RBC Capital Markets.
+              I lead teams that scale alt-data feature mining to <strong>650k</strong> signals across 16×64-core clusters, deploy LLM agents summarizing
+              earnings press releases for <strong>2.5k</strong> tickers per quarter (keeping hallucinations under <strong>1%</strong>), and maintain seven Kubernetes-hosted
+              analytics apps with <strong>99%</strong> uptime. Previously, at Ernst &amp; Young, I built a document-intelligence engine that exceeded <strong>95%</strong> accuracy,
+              compressed audit cycles from 16 weeks to 5 days, delivered a secure Vertex AI platform in 9 days, and designed climate-risk engines aligning NGFS/IAM scenarios with ECB tests.
+            </p>
+            <p>
+              I believe in reproducible AI, transparent research, and bridging the gap between cutting-edge models and high-impact production.
+              When I’m not orchestrating ML pipelines, you’ll find me experimenting with generative art, devouring sci-fi novels, or exploring Toronto’s board-game cafés.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section__inner">
+          <div class="section__heading">
+            <h2>Experience</h2>
+            <p>Vertical leadership across finance, consulting, and research.</p>
+          </div>
+          <ul class="timeline" aria-label="Professional experience timeline">
+            <li>
+              <div class="badge">2025 – Present · Toronto</div>
+              <h3>AD/VP – Tech Lead, Data Science</h3>
+              <p class="role">RBC Capital Markets – Global Research &amp; Quant Tech Services</p>
+              <ul>
+                <li>Architected a multivariate + exogenous forecasting platform on Databricks, reducing runtime by <strong>≈70%</strong> over 500+ cores and standardizing MLflow-tracked pipelines across desks.</li>
+                <li>Delivered the QuickTake agentic RAG summarizer for ~<strong>2.5k</strong> earnings press releases per quarter, achieving <strong>&gt;90%</strong> manual effort reduction with <strong>&lt;1%</strong> hallucination.</li>
+                <li>Scaled alt-data feature mining to <strong>650k</strong> signals on 16×64-core clusters, producing predictors with <strong>R² ≈ 0.99</strong> and <strong>MAPE &lt; 1%</strong>.</li>
+                <li>Owned seven Kubernetes analytics apps with weekly refresh, drift monitoring, and <strong>99%</strong> uptime (<strong>&lt;30</strong> minute MTTR); boosted research output <strong>+50%</strong> YoY and readership <strong>4×</strong>.</li>
+                <li>Recognized for contributions to Extel <strong>#3</strong> Macro (2024) and Euromoney <strong>#1</strong> NA Research (2025).</li>
+              </ul>
+            </li>
+            <li>
+              <div class="badge">2023 – 2024 · Toronto</div>
+              <h3>Senior / Data Scientist</h3>
+              <p class="role">RBC Capital Markets – Global Research &amp; Quant Tech Services</p>
+              <ul>
+                <li>Developed leakage-aware forecasting pipelines and economic scenario simulators for macro and sector desks.</li>
+                <li>Prototyped news-listening agents and earnings-call topic modeling frameworks, trimming analyst reaction time by <strong>&gt;80%</strong>.</li>
+                <li>Accelerated cross-asset signal discovery and experimentation through automated feature mining and guardrailed evaluation harnesses.</li>
+              </ul>
+            </li>
+            <li>
+              <div class="badge">2022 – 2023 · Toronto &amp; Montreal</div>
+              <h3>Senior AI Consultant</h3>
+              <p class="role">Ernst &amp; Young – Advanced Analytics &amp; AI</p>
+              <ul>
+                <li>Built a document-intelligence system delivering <strong>&gt;95%</strong> tax data extraction accuracy, cutting audit cycles from 16 weeks to <strong>5</strong> days (~<strong>$1.4M</strong> annual savings).</li>
+                <li>Delivered a secure Vertex AI platform (Feature Store + Kubeflow + CI/CD) for a top asset manager in just <strong>9</strong> days.</li>
+                <li>Designed a climate-risk engine aligning NGFS/IAM scenarios with ECB stress tests for low-latency risk production.</li>
+              </ul>
+            </li>
+            <li>
+              <div class="badge">2021 – 2022 · Canada</div>
+              <h3>Staff AI Consultant</h3>
+              <p class="role">Ernst &amp; Young – Advanced Analytics &amp; AI</p>
+              <ul>
+                <li>Led pursuits and client workshops, authored winning RFPs, and translated AI concepts into prototypes for regulated industries.</li>
+                <li>Advised executives on AI governance, responsible deployment practices, and agile experimentation cycles.</li>
+              </ul>
+            </li>
+            <li>
+              <div class="badge">2020 · Los Angeles</div>
+              <h3>LLM Research Programmer</h3>
+              <p class="role">USC Information Sciences Institute – AI2 Machine Common Sense</p>
+              <ul>
+                <li>Reduced RoBERTa fine-tuning compute by <strong>≈80%</strong> via data distillation, deterministic seeding, and modular MLOps toolkits adopted lab-wide.</li>
+                <li>Built evaluation gates, ablation harnesses, and dependency checkpointing to ensure reproducible experimentation.</li>
+              </ul>
+            </li>
+          </ul>
+          <p class="prose">More detail and project links live in the Projects &amp; Achievements section below.</p>
+        </div>
+      </section>
+
+      <section class="section" id="internships">
+        <div class="section__inner">
+          <div class="section__heading">
+            <h2>Internships &amp; Co-op Experience</h2>
+            <p>Six terms of industry-hopping engineering from telecom to hedge funds.</p>
+          </div>
+          <div class="prose">
+            <p>
+              During my University of Waterloo engineering years, I embraced the co-op program’s diversity by interning across telecommunications, consumer tech, health-tech, manufacturing, finance, and AI research.
+              I built real-time network monitoring tools for a telecommunications giant, analytics dashboards for an e-commerce startup, risk-analytics prototypes at a hedge fund, and NLP models for a health-tech firm.
+            </p>
+            <p>
+              These six co-op terms broadened my technical toolkit—full-stack services, data pipelines, analytics apps, and domain-specific ML—and reinforced that rigorous thinking, reproducibility, and user empathy travel across domains.
+              The result: a well-rounded engineer ready to ramp quickly and ship value in cross-disciplinary environments from OpenAI to Citadel.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section__inner">
+          <div class="section__heading">
+            <h2>Skills</h2>
+            <p>Technical depth paired with product fluency.</p>
+          </div>
+          <ul class="skill-list">
+            <li>
+              <h3>LLMs &amp; Generative AI</h3>
+              <ul>
+                <li>Pre-training &amp; fine-tuning; instruction tuning; LoRA/adapters; multimodal fusion</li>
+                <li>Prompt, guardrail, and evaluation design (relevance &amp; faithfulness metrics)</li>
+                <li>Transformer internals (BERT/RoBERTa attention, sparse/structured variants)</li>
+              </ul>
+            </li>
+            <li>
+              <h3>Retrieval-Augmented Generation</h3>
+              <ul>
+                <li>Semantic &amp; overlap chunking, dense/sparse embeddings, vector databases</li>
+                <li>Reranking, cite-back grounding, LLM-as-judge pipelines, latency/throughput tuning</li>
+                <li>Evaluation harnesses with automated regression gates</li>
+              </ul>
+            </li>
+            <li>
+              <h3>Quantitative Forecasting &amp; Time Series</h3>
+              <ul>
+                <li>Multivariate &amp; exogenous forecasting, leakage controls, walk-forward backtests</li>
+                <li>Feature engineering, quantile regression, stochastic calculus, error decomposition</li>
+                <li>Alt-data signal discovery at scale with reproducible experimentation</li>
+              </ul>
+            </li>
+            <li>
+              <h3>Systems &amp; MLOps</h3>
+              <ul>
+                <li>Python, Java, C/C++, SQL, Bash; PyTorch, TensorFlow, XGBoost, Scikit-Learn</li>
+                <li>Spark/Databricks, MLflow/W&B, Docker, Kubernetes (HA/DR), GitHub Actions</li>
+                <li>Vertex AI, Azure, GCP, AWS; CI/CD, observability, and data-quality checks</li>
+              </ul>
+            </li>
+            <li>
+              <h3>Product &amp; Stakeholder Engagement</h3>
+              <ul>
+                <li>Concept-to-production delivery, agile leadership, risk alignment</li>
+                <li>Technical pre/post-sales, executive storytelling, documentation &amp; mentorship</li>
+                <li>Experiment design, ablation studies, ROI communication</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section__inner projects">
+          <div class="section__heading">
+            <h2>Projects &amp; Achievements</h2>
+            <p>From agentic RAG to deterministic fine-tuning.</p>
+          </div>
+          <div class="card-grid">
+            <article class="card">
+              <h3><span>QuickTake</span>Agentic RAG Earnings Summarizer</h3>
+              <p>Transforms ~<strong>2.5k</strong> earnings press releases into analyst-ready notes using retrieval-bounded prompting and LLM-as-judge evaluation.</p>
+              <ul>
+                <li>Cut manual effort by <strong>&gt;90%</strong> with <strong>&lt;1%</strong> hallucination.</li>
+                <li>Stack: Python, HuggingFace, vector databases, OpenAI API.</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3><span>Alt-Data Forecasting Platform</span>Databricks MLflow Pipeline</h3>
+              <p>Unified ingestion → feature engineering → model training on a 500-core cluster.</p>
+              <ul>
+                <li>Reduced training runtime by <strong>≈70%</strong> and enabled cross-desk reuse.</li>
+                <li>Models achieved <strong>R² ≈ 0.99</strong> and <strong>MAPE &lt; 1%</strong>.</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3><span>News Listening Agent</span>Financial Topic Tracking</h3>
+              <p>Monitors financial feeds (e.g., LSEG) to flag alpha-relevant developments with guardrailed summaries.</p>
+              <ul>
+                <li>Cut analyst reaction time by <strong>&gt;80%</strong>.</li>
+                <li>Used streaming ingestion, topic modeling, and retrieval-aware prompting.</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3><span>Earnings-Call Topic Modeling</span>Cross-Sector NLP Framework</h3>
+              <p>Quantifies qualitative trends across transcripts via bespoke sentiment and thematic analysis.</p>
+              <ul>
+                <li>Empowered macro and consumer research teams with reusable templates.</li>
+                <li>Enabled quarterly thematic drift tracking for leadership briefings.</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3><span>Cross-Asset Signal Discovery</span>Alt-Data Feature Mining</h3>
+              <p>Processed ~<strong>650k</strong> alternative-data features on 16×64-core clusters.</p>
+              <ul>
+                <li>Delivered predictors hitting <strong>R² ≈ 0.99</strong> and <strong>MAPE &lt; 1%</strong>.</li>
+                <li>Instrumented automated drift and stability diagnostics.</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3><span>Document-Intelligence System</span>Ernst &amp; Young</h3>
+              <p>Human-in-the-loop engine with <strong>&gt;95%</strong> tax data extraction accuracy.</p>
+              <ul>
+                <li>Shortened audit cycles from 16 weeks to <strong>5</strong> days.</li>
+                <li>Orchestrated validation workflows and review tooling.</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3><span>Vertex AI Platform Deployment</span>Ernst &amp; Young</h3>
+              <p>Feature Store + Kubeflow + CI/CD rollout for a top asset manager.</p>
+              <ul>
+                <li>Delivered production-ready platform in <strong>9</strong> days.</li>
+                <li>Established reproducible model development and deployment playbooks.</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3><span>Climate-Risk Engine</span>Ernst &amp; Young</h3>
+              <p>Stress-testing engine aligning NGFS/IAM scenarios with ECB requirements.</p>
+              <ul>
+                <li>Enabled low-latency portfolio stress testing and regulatory reporting.</li>
+                <li>Integrated scenario orchestration with real-time dashboards.</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3><span>Deterministic Fine-Tuning Library</span>USC ISI</h3>
+              <p>Reproducible fine-tuning for BERT/RoBERTa with seed control and ablation tooling.</p>
+              <ul>
+                <li>Reduced compute cost by <strong>≈80%</strong>.</li>
+                <li>Adopted lab-wide for DARPA Machine Common Sense experimentation.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="research">
+        <div class="section__inner">
+          <div class="section__heading">
+            <h2>Research &amp; Publications</h2>
+            <p>Curated talks, publications, and internal frameworks.</p>
+          </div>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Precision at Scale – RBC Elements Approach to Time-Series Forecasting</h3>
+              <p>Invited expert talk delivered at RBC T&amp;O Catalyst (2025) on scaling multivariate forecasting with reproducibility.</p>
+            </article>
+            <article class="card">
+              <h3>Analysis of Feature Influence on COVID-19 Death Rates Using Orthogonalization</h3>
+              <p>Polyalgorithm ML (2021). Explored feature influence via orthogonalization for public health analytics.</p>
+            </article>
+            <article class="card">
+              <h3>Internal Frameworks &amp; Tooling</h3>
+              <p>
+                Deterministic Fine-tuning Library (USC ISI); Time-Series Evaluation Harness (RBC); Automated Evaluation Harness for QuickTake Agents (RBC);
+                BERT Topic-Modeling Framework (RBC). Proprietary implementations summarized for context.
+              </p>
+            </article>
+          </div>
+        </div>
       </section>
 
       <section class="section" id="education">
-        <h2>Education &amp; Certifications</h2>
-        <div class="columns">
-          <div>
-            <h3>University of Southern California</h3>
-            <p>M.S. Analytics (LLM focus) · GPA 3.96 · Alpha Pi Mu Honour Society · 2020</p>
+        <div class="section__inner">
+          <div class="section__heading">
+            <h2>Education &amp; Certifications</h2>
+            <p>Academic rigor with applied analytics focus.</p>
           </div>
-          <div>
-            <h3>University of Waterloo</h3>
-            <p>B.Math, Combinatorics &amp; Optimization + Math Finance · Valedictorian · 2019</p>
+          <ul class="education-list">
+            <li>
+              <strong>M.Sc. Analytics (LLM focus)</strong>
+              University of Southern California, 2020 · GPA <strong>3.96</strong> · Alpha Pi Mu Honour Society
+            </li>
+            <li>
+              <strong>B.Math. Combinatorics &amp; Optimization + Mathematical Finance</strong>
+              University of Waterloo, 2019 · Class Valedictorian
+            </li>
+            <li>
+              <strong>Certifications</strong>
+              Microsoft Azure Data Scientist Associate; Databricks Certified Data Scientist; Apache Spark Developer
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="passions">
+        <div class="section__inner">
+          <div class="section__heading">
+            <h2>Passions &amp; Personal Interests</h2>
+            <p>Quirky curiosity meets responsible AI.</p>
           </div>
-          <div>
-            <h3>Certifications</h3>
-            <p>Azure Data Scientist Associate · Databricks Certified Data Scientist &amp; Apache Spark Developer</p>
+          <p class="passions">
+            Outside of work I’m fascinated by autonomous research agents and generative systems. You’ll often find me tinkering with open-source LLM frameworks,
+            crafting generative art pieces that blend math and music, or diving into strategic board games at Toronto’s cafés. I’m a lifelong learner—whether that means
+            deconstructing a stochastic differential equation, practicing improvisational jazz, or exploring the philosophy of AI ethics. I’m also passionate about mentoring
+            the next generation of AI engineers and advocating for responsible AI that benefits everyone.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="section__inner">
+          <div class="section__heading">
+            <h2>Contact</h2>
+            <p>Reach out—response within 24–48 hours.</p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-info">
+              <p>Email: <a href="mailto:David.JiangGorsline@gmail.com"><span>David.JiangGorsline@gmail.com</span></a></p>
+              <p>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/davidjianggorsline" target="_blank" rel="noopener">
+                  <span aria-hidden="true">in</span> /davidjianggorsline
+                </a>
+              </p>
+              <p>
+                GitHub:
+                <a href="https://github.com/davidjianggorsline" target="_blank" rel="noopener">
+                  <span aria-hidden="true">{ }</span> /davidjianggorsline
+                </a>
+              </p>
+              <p>Location: Toronto, Ontario, Canada</p>
+              <p>I typically respond within 24–48 hours and love thoughtful prompts.</p>
+            </div>
+            <div class="contact-form">
+              <form
+                action="https://formspree.io/f/your-form-id"
+                method="POST"
+                aria-label="Contact form"
+              >
+                <!-- TODO: Replace placeholder Formspree endpoint with production-ready service. -->
+                <div>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required autocomplete="name" />
+                </div>
+                <div>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required autocomplete="email" />
+                </div>
+                <div>
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button class="btn" type="submit">Send message</button>
+                <small>Submitting will open an external service; replace with your preferred provider for production.</small>
+              </form>
+            </div>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <p>
-        © <span id="year"></span> David Jiang-Gorsline · Toronto, Canada ·
-        <a href="mailto:David.JiangGorsline@gmail.com">David.JiangGorsline@gmail.com</a>
-      </p>
+    <footer class="footer" role="contentinfo">
+      <div class="footer__inner">
+        <div>© <span id="year"></span> David Jiang-Gorsline · Toronto, Canada</div>
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </footer>
 
     <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
+      document.getElementById('year').textContent = new Date().getFullYear();
     </script>
+    <script src="assets/js/main.js" defer></script>
   </body>
 </html>
