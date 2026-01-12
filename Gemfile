@@ -11,6 +11,10 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
-  
-gemspec
 
+gem "jekyll", ">= 4.3.3"
+gem "jekyll-paginate", "~> 1.1"
+gem "jekyll-sitemap", "~> 1.4"
+gem "kramdown", "~> 2.3"
+gem "kramdown-parser-gfm", "~> 1.1"
+gem "webrick", "~> 1.8"

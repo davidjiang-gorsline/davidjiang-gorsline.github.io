@@ -3,7 +3,7 @@ layout: page
 title: CV
 ---
 
-[Download CV (PDF)](/assets/pdf/David_Jiang-Gorsline_CV.pdf)
+[Download CV (PDF)](/assets/media/docs/David_Jiang-Gorsline_CV.pdf)
 
 ## Highlights
 
@@ -15,4 +15,4 @@ title: CV
 - Shipped cross-asset ranking engines with regime-aware evaluation.
 - Built spatiotemporal climate event ingestion and exposure mapping platforms.
 
-> **Note:** The CV PDF is a placeholder; replace with the latest version when available.
+The PDF is the canonical version for sharing with recruiters and collaborators.
