@@ -16,7 +16,7 @@ title: David Jiang-Gorsline
 author: David Jiang-Gorsline
 
 # Short description of your site
-description: Statistical ML for contextualised forecasting: timing-uncertain context, retrieval/memory, leakage-aware evaluation.
+description: "Statistical ML for contextualised forecasting: timing-uncertain context, retrieval/memory, leakage-aware evaluation."
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -87,7 +87,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: Research notes and project updates on contextualised forecasting and evaluation.
+rss-description: "Research notes and project updates on contextualised forecasting and evaluation."
 
 ###########################
 # --- General options --- #
