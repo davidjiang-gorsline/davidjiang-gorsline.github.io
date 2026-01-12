@@ -3,7 +3,7 @@ layout: page
 title: Contact
 ---
 
-- **Email:** [david.jiang-gorsline@example.com](mailto:david.jiang-gorsline@example.com)
+- **Email:** [david.jiang-gorsline@gmail.com](mailto:david.jiang-gorsline@gmail.com)
 - **LinkedIn:** [linkedin.com/in/david-jiang-gorsline](https://www.linkedin.com/in/david-jiang-gorsline)
 - **GitHub:** [github.com/davidjiang-gorsline](https://github.com/davidjiang-gorsline)
 
