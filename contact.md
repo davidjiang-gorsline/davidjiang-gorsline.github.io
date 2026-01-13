@@ -7,4 +7,4 @@ title: Contact
 - **LinkedIn:** [linkedin.com/in/davidjianggorsline](https://www.linkedin.com/in/davidjianggorsline/)
 - **GitHub:** [github.com/davidjiang-gorsline](https://github.com/davidjiang-gorsline)
 
-I am open to research collaborations and PhD supervision conversations in contextualised forecasting and evaluation.
+I am open to research collaborations and research sponsorship conversation in contextualised forecasting and evaluation.

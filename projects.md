@@ -10,7 +10,7 @@ title: Projects
 **Evaluation discipline:** Human-verified attribution, adversarial prompt probes, and doc-level recall checks.
 **Metrics:**
 - <1% hallucination rate in evaluation-focused audits.
-- >95% evidence coverage on targeted QA prompts.
+- 95+% evidence coverage on targeted QA prompts.
 
 ## Leakage-safe walk-forward evaluation harness
 **Problem:** Forecasting systems quietly leak future information in pipelines.

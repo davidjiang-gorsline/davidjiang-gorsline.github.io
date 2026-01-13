@@ -14,5 +14,3 @@ title: CV
 - Developed deterministic finetuning/data distillation workflows for efficient experiments.
 - Shipped cross-asset ranking engines with regime-aware evaluation.
 - Built spatiotemporal climate event ingestion and exposure mapping platforms.
-
-The PDF is the canonical version for sharing with recruiters and collaborators.
