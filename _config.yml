@@ -5,7 +5,7 @@ description: "Statistical ML for contextualised forecasting: timing-uncertain co
 
 # Keep the primary navigation shallow so updates stay easy.
 navbar-links:
-  Home: ""
+  Home: "index"
   Research: "research"
   Projects: "projects"
   Publications: "publications"
@@ -19,9 +19,9 @@ round-avatar: true
 
 # Social links are used in the footer so contact options are consistent site-wide.
 social-network-links:
-  email: "david.jiang-gorsline@gmail.com"
+  email: "david.jianggorsline@gmail.com"
   github: davidjiang-gorsline
-  linkedin: david-jiang-gorsline
+  linkedin: davidjianggorsline
   rss: true
 
 rss-description: "Research notes and project updates on contextualised forecasting and evaluation."
